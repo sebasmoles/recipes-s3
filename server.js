@@ -7,7 +7,8 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 const whiteList = [
-    'http://localhost:8080'
+    'http://localhost:8080',
+    'https://recipes-web-app-project.herokuapp.com'
 ]
 
 app.use(cors({ origin: whiteList }));

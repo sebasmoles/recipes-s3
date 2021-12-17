@@ -1,0 +1,23 @@
+{
+  "name": "node-direct-uploader",
+  "version": "1.0.0",
+  "description": "A simple node app for uploading images to S3 from the client",
+  "author": "sebasmoles",
+  "license": "MIT",
+  "main": "server.js",
+  "type": "module",
+
+  "scripts": {
+    "start": "node server.js"
+  },  
+
+  "dependencies": {
+    "aws-sdk": "2.x",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "ejs": "2.x",
+    "express": "^4.17.1",
+    "util": "^0.12.4"
+  }
+}
